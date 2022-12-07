@@ -1,0 +1,66 @@
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: hsl(218deg, 23%, 16%);
+}
+body h1 {
+  font-size: 28px;
+  padding: 15px;
+  margin-top: 5px;
+}
+body h5 {
+  color: hsl(150deg, 100%, 66%);
+  margin-bottom: 0px;
+  padding-top: 30px;
+  letter-spacing: 2px;
+}
+
+.container {
+  background-color: hsl(217deg, 19%, 24%);
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  color: hsl(193deg, 38%, 86%);
+  font-weight: 800;
+  border-radius: 10px;
+  position: relative;
+}
+.container .separator {
+  padding-bottom: 60px;
+}
+
+.dice {
+  background-color: hsl(150deg, 100%, 66%);
+  width: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 60px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 92%;
+}
+.dice:hover {
+  filter: drop-shadow(0 0 20px hsl(150deg, 100%, 66%));
+}
+
+.attribution {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    width: 90vw;
+  }
+  .separator {
+    width: 85vw;
+  }
+  .attribution {
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */
